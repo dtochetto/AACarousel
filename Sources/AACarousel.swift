@@ -8,7 +8,7 @@
 
 import UIKit
 
-open protocol AACarouselDelegate {
+public protocol AACarouselDelegate {
    func didSelectCarouselView(_ view:AACarousel, _ index:Int)
    func callBackFirstDisplayView(_ imageView:UIImageView, _ url:[String], _ index:Int)
    func downloadImages(_ url:String, _ index:Int)
